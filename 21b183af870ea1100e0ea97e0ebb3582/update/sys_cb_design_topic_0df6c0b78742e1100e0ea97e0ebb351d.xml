@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_design_topic">
+    <sys_cb_design_topic action="INSERT_OR_UPDATE">
+        <compiled_topic display_value="_PRVW__fcf640b78442e1108a9528a5abe660dc">b4f640b78742e1100e0ea97e0ebb35e3</compiled_topic>
+        <design_definition>{"type":"FlowTopic","type":"FlowTopic","triggers":[{"type":"Trigger","name":"4bb1fc1c63b14984873a8a9bbe13683e","triggerType":"request","applicability":{"type":"Applicability","type":"Applicability","mode":"script","value":"true"},"id":"4bb1fc1c63b14984873a8a9bbe13683e"}],"goals":[{"name":"primary","trigger_id":"4bb1fc1c63b14984873a8a9bbe13683e","nodes":[{"type":"StartGoal","type":"StartGoal","goal_id":"primary","greeting_msg":{"type":"String","type":"String","mode":"string","value":""},"id":"d42819db87774288b2a386f761b891b2","name":"Start"},{"type":"TerminateGoal","type":"TerminateGoal","goal_id":"primary","confirmation_msg":{"type":"String","type":"String","mode":"string","value":""},"id":"8de3ee1be8d14719aac442620fe64ff2","name":"End"}],"edges":[{"type":"Edge","source_node_id":"d42819db87774288b2a386f761b891b2","target_node_id":"8de3ee1be8d14719aac442620fe64ff2","id":"1a1c4a0a75ac449facc48db714f332d4"}],"id":"primary"}],"script_variables":[{"type":"VariableDto","type":"String","name":"LiveAgent_application","value":{"type":"String","type":"String","mode":"string"},"list":false,"id":"55889b03327c49cfa02b40afa902905c","formatType":"text","secure":false,"sensitive":false}],"glide_variables":[{"type":"Reference","type":"Reference","table":"sys_user","id":"current-user","name":"user","formatType":"text","secure":false,"sensitive":false,"list":false}],"applicability":{"type":"Applicability","type":"Applicability","mode":"script","value":"true"},"roles":[],"scope":"21b183af870ea1100e0ea97e0ebb3582","domain":"global","topic_type":"STANDARD","channels":[],"id":"6db28fef870ea1100e0ea97e0ebb3518","name":"_PRVW__fcf640b78442e1108a9528a5abe660dc","key_phrases":["View Open NeedIt Records","NeedIt Request","need something"],"nlu_provider":"","nlu_model":"","nlu_model_label":"","nlu_intent":"","nlu_intent_label":"","flexible_conversation_switching":false,"autopilot_topic":false,"design_categories":[{"name":null,"visible":false,"sysId":"f2f183ef870ea1100e0ea97e0ebb35a4"}],"triggerable_by_notification":false,"library":false,"readOnly":false,"nluMapping":"[]"}</design_definition>
+        <design_topic_id>6db28fef870ea1100e0ea97e0ebb3518</design_topic_id>
+        <graph>{"graph_api_version":"1.0.42","variables":{"55889b03327c49cfa02b40afa902905c":{"id":"55889b03327c49cfa02b40afa902905c","name":"LiveAgent_application","value":{"mode":"simple","value":null},"varType":"script","category":"vaVars"}},"goals":{"primary":{"id":"primary","trigger":{"type":"primary"},"name":"primary","applicability":"","description":"","nodes":{"d42819db87774288b2a386f761b891b2":{"id":"d42819db87774288b2a386f761b891b2","stepType":"Start","name":"Start","greetingResponse":{"mode":"simple","value":""}},"8de3ee1be8d14719aac442620fe64ff2":{"id":"8de3ee1be8d14719aac442620fe64ff2","stepType":"TerminateGoal","name":"End","confirmationMessage":{"mode":"simple","value":""}}},"edges":[{"id":"1a1c4a0a75ac449facc48db714f332d4","edgeType":"Edge","source":"d42819db87774288b2a386f761b891b2","target":"8de3ee1be8d14719aac442620fe64ff2","sourcePort":"","targetPort":""}]}}}</graph>
+        <name>_PRVW__fcf640b78442e1108a9528a5abe660dc</name>
+        <sys_class_name>sys_cb_design_topic</sys_class_name>
+        <sys_created_by>adm_carolina</sys_created_by>
+        <sys_created_on>2023-04-13 14:18:33</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>0df6c0b78742e1100e0ea97e0ebb351d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FlowTopic</sys_name>
+        <sys_package display_value="NeedIt Virtual Agent Conversations" source="x_1021561_needit_v">21b183af870ea1100e0ea97e0ebb3582</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt Virtual Agent Conversations">21b183af870ea1100e0ea97e0ebb3582</sys_scope>
+        <sys_update_name>sys_cb_design_topic_0df6c0b78742e1100e0ea97e0ebb351d</sys_update_name>
+        <sys_updated_by>adm_carolina</sys_updated_by>
+        <sys_updated_on>2023-04-13 14:18:33</sys_updated_on>
+        <type>FlowTopic</type>
+    </sys_cb_design_topic>
+</record_update>
